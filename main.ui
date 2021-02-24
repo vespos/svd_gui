@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>985</width>
+    <height>608</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="WaveformGraphWidget" name="waveformGraph" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>425</width>
+     <height>355</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="RegressorWidget" name="regressorWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>360</y>
+     <width>425</width>
+     <height>230</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="StripchartsView" name="stripchartsView" native="true">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>0</y>
+     <width>541</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>WaveformGraphWidget</class>
+   <extends>QWidget</extends>
+   <header>svd_widgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RegressorWidget</class>
+   <extends>QWidget</extends>
+   <header>svd_widgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StripchartsView</class>
+   <extends>QWidget</extends>
+   <header>svd_widgets</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
