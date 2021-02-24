@@ -14,7 +14,6 @@ import config
 import utils
 from workers import GetWfWorker
 
-sys.path.append('/reg/neh/home/espov/python/data_processing/waveform_analysis/')
 import svd_waveform_processing as proc
 
 # test data
